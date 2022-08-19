@@ -14,13 +14,18 @@ function addCustomerName() {
 };
 
 function toggleColors() {
-    // <!-- todo: Change all classes named 'tm-white-rect' to 'tm-blue-rect' -->
+
+    let whiteRects = document.querySelectorAll('.tm-white-rect');
+    whiteRects.forEach(rect => {
+        rect.classList.add('tm-blue-rect');
+        rect.classList.remove('tm-white-rect');
+    });
 
 };
 
 function hideElement() {
     //<ul class="nav flex-row tm-social-links">  <!--todo: Hide social links-->
-
+    
 };
 
  function addText() {
