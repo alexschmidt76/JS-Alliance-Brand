@@ -24,22 +24,27 @@ function toggleColors() {
 };
 
 function hideElement() {
-    //<ul class="nav flex-row tm-social-links">  <!--todo: Hide social links-->
-    let socialLinks = document.querySelector('.tm-social-links');
+
+    let socialLinks = document.getElementById('social-links');
     socialLinks.style.visibility = 'hidden';
 };
 
  function addText() {
 
-    //<p id="intropara1" class="tm-color-gray">  <!--todo: Add customer company introduction text about their founding year-->
+    let intropara1 = document.getElementById('intropara1');
+    intropara1.textContent = 'Alliance was founded in 1931 by Albert Daniels.';
 
-    //<p id="intropara2" class="mb-0 tm-color-gray"> <!--todo: Add customer company introduction text about what they lead in-->
+    let intropara2 = document.getElementById('intropara2');
+    intropara2.textContent ='The company is a leader in P.C. Manufacturing';
 
-     //<p id="aboutpara1" id="a" class="mb-5"> <!--todo: Add customer company about text-->
+     let aboutpara1 = document.getElementById('aboutpara1');
+     aboutpara1.textContent = 'We deliver the best service this side of creation';
 
-    //<p id="aboutpara2"> <!--todo: Add customer company motto text-->
+    let aboutpara2 = document.getElementById('aboutpara2');
+    aboutpara2.textContent = 'Our motto is satisfaction guaranteed';
 
-    // <p id="addresspara" class="mb-3"> <!--todo: Add customer company phone number text-->
+    let addresspara = document.getElementById('addresspara');
+    addresspara.textContent = '1-800-565-5656';
 
 }; 
 
