@@ -1,14 +1,15 @@
 var customerName = "Alliance  ";
 
-// <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
 function addCustomerName() {
 
-    let title = document.getElementById('title')
+    let title = document.getElementById('title');
     title.textContent = customerName;
     
-    // <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
+    let h1 = document.querySelector('h1');
+    h1.textContent = customerName;
 
-    // <h2 id="introheader" class="tm-section-title mb-5 text-uppercase tm-color-primary"></h2> <!--todo: Add Customer Name-->
+    let introheader = document.getElementById('introheader');
+    introheader.textContent = customerName;
 
 };
 
